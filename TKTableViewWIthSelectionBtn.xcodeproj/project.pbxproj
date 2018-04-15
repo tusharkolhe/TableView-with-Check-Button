@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71C2C997208301980049EBFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2C996208301980049EBFC /* AppDelegate.m */; };
+		71C2C99A208301980049EBFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2C999208301980049EBFC /* ViewController.m */; };
+		71C2C99D208301980049EBFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C2C99B208301980049EBFC /* Main.storyboard */; };
+		71C2C99F208301980049EBFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C2C99E208301980049EBFC /* Assets.xcassets */; };
+		71C2C9A2208301980049EBFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C2C9A0208301980049EBFC /* LaunchScreen.storyboard */; };
+		71C2C9A5208301980049EBFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2C9A4208301980049EBFC /* main.m */; };
+		71C2C9AF208301990049EBFC /* TKTableViewWIthSelectionBtnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2C9AE208301990049EBFC /* TKTableViewWIthSelectionBtnTests.m */; };
+		71C2C9BA208301990049EBFC /* TKTableViewWIthSelectionBtnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2C9B9208301990049EBFC /* TKTableViewWIthSelectionBtnUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71C2C9AB208301990049EBFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71C2C98A208301980049EBFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71C2C991208301980049EBFC;
+			remoteInfo = TKTableViewWIthSelectionBtn;
+		};
+		71C2C9B6208301990049EBFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71C2C98A208301980049EBFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71C2C991208301980049EBFC;
+			remoteInfo = TKTableViewWIthSelectionBtn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71C2C992208301980049EBFC /* TKTableViewWIthSelectionBtn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKTableViewWIthSelectionBtn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C2C995208301980049EBFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71C2C996208301980049EBFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71C2C998208301980049EBFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71C2C999208301980049EBFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71C2C99C208301980049EBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71C2C99E208301980049EBFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71C2C9A1208301980049EBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71C2C9A3208301980049EBFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C2C9A4208301980049EBFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71C2C9AA208301990049EBFC /* TKTableViewWIthSelectionBtnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKTableViewWIthSelectionBtnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C2C9AE208301990049EBFC /* TKTableViewWIthSelectionBtnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTableViewWIthSelectionBtnTests.m; sourceTree = "<group>"; };
+		71C2C9B0208301990049EBFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C2C9B5208301990049EBFC /* TKTableViewWIthSelectionBtnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKTableViewWIthSelectionBtnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C2C9B9208301990049EBFC /* TKTableViewWIthSelectionBtnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTableViewWIthSelectionBtnUITests.m; sourceTree = "<group>"; };
+		71C2C9BB208301990049EBFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71C2C98F208301980049EBFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C2C9A7208301990049EBFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C2C9B2208301990049EBFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71C2C989208301980049EBFC = {
+			isa = PBXGroup;
+			children = (
+				71C2C994208301980049EBFC /* TKTableViewWIthSelectionBtn */,
+				71C2C9AD208301990049EBFC /* TKTableViewWIthSelectionBtnTests */,
+				71C2C9B8208301990049EBFC /* TKTableViewWIthSelectionBtnUITests */,
+				71C2C993208301980049EBFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71C2C993208301980049EBFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71C2C992208301980049EBFC /* TKTableViewWIthSelectionBtn.app */,
+				71C2C9AA208301990049EBFC /* TKTableViewWIthSelectionBtnTests.xctest */,
+				71C2C9B5208301990049EBFC /* TKTableViewWIthSelectionBtnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71C2C994208301980049EBFC /* TKTableViewWIthSelectionBtn */ = {
+			isa = PBXGroup;
+			children = (
+				71C2C995208301980049EBFC /* AppDelegate.h */,
+				71C2C996208301980049EBFC /* AppDelegate.m */,
+				71C2C998208301980049EBFC /* ViewController.h */,
+				71C2C999208301980049EBFC /* ViewController.m */,
+				71C2C99B208301980049EBFC /* Main.storyboard */,
+				71C2C99E208301980049EBFC /* Assets.xcassets */,
+				71C2C9A0208301980049EBFC /* LaunchScreen.storyboard */,
+				71C2C9A3208301980049EBFC /* Info.plist */,
+				71C2C9A4208301980049EBFC /* main.m */,
+			);
+			path = TKTableViewWIthSelectionBtn;
+			sourceTree = "<group>";
+		};
+		71C2C9AD208301990049EBFC /* TKTableViewWIthSelectionBtnTests */ = {
+			isa = PBXGroup;
+			children = (
+				71C2C9AE208301990049EBFC /* TKTableViewWIthSelectionBtnTests.m */,
+				71C2C9B0208301990049EBFC /* Info.plist */,
+			);
+			path = TKTableViewWIthSelectionBtnTests;
+			sourceTree = "<group>";
+		};
+		71C2C9B8208301990049EBFC /* TKTableViewWIthSelectionBtnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71C2C9B9208301990049EBFC /* TKTableViewWIthSelectionBtnUITests.m */,
+				71C2C9BB208301990049EBFC /* Info.plist */,
+			);
+			path = TKTableViewWIthSelectionBtnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71C2C991208301980049EBFC /* TKTableViewWIthSelectionBtn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C2C9BE208301990049EBFC /* Build configuration list for PBXNativeTarget "TKTableViewWIthSelectionBtn" */;
+			buildPhases = (
+				71C2C98E208301980049EBFC /* Sources */,
+				71C2C98F208301980049EBFC /* Frameworks */,
+				71C2C990208301980049EBFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKTableViewWIthSelectionBtn;
+			productName = TKTableViewWIthSelectionBtn;
+			productReference = 71C2C992208301980049EBFC /* TKTableViewWIthSelectionBtn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71C2C9A9208301990049EBFC /* TKTableViewWIthSelectionBtnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C2C9C1208301990049EBFC /* Build configuration list for PBXNativeTarget "TKTableViewWIthSelectionBtnTests" */;
+			buildPhases = (
+				71C2C9A6208301990049EBFC /* Sources */,
+				71C2C9A7208301990049EBFC /* Frameworks */,
+				71C2C9A8208301990049EBFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71C2C9AC208301990049EBFC /* PBXTargetDependency */,
+			);
+			name = TKTableViewWIthSelectionBtnTests;
+			productName = TKTableViewWIthSelectionBtnTests;
+			productReference = 71C2C9AA208301990049EBFC /* TKTableViewWIthSelectionBtnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71C2C9B4208301990049EBFC /* TKTableViewWIthSelectionBtnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C2C9C4208301990049EBFC /* Build configuration list for PBXNativeTarget "TKTableViewWIthSelectionBtnUITests" */;
+			buildPhases = (
+				71C2C9B1208301990049EBFC /* Sources */,
+				71C2C9B2208301990049EBFC /* Frameworks */,
+				71C2C9B3208301990049EBFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71C2C9B7208301990049EBFC /* PBXTargetDependency */,
+			);
+			name = TKTableViewWIthSelectionBtnUITests;
+			productName = TKTableViewWIthSelectionBtnUITests;
+			productReference = 71C2C9B5208301990049EBFC /* TKTableViewWIthSelectionBtnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71C2C98A208301980049EBFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tushar Kolhe";
+				TargetAttributes = {
+					71C2C991208301980049EBFC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					71C2C9A9208301990049EBFC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71C2C991208301980049EBFC;
+					};
+					71C2C9B4208301990049EBFC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71C2C991208301980049EBFC;
+					};
+				};
+			};
+			buildConfigurationList = 71C2C98D208301980049EBFC /* Build configuration list for PBXProject "TKTableViewWIthSelectionBtn" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71C2C989208301980049EBFC;
+			productRefGroup = 71C2C993208301980049EBFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71C2C991208301980049EBFC /* TKTableViewWIthSelectionBtn */,
+				71C2C9A9208301990049EBFC /* TKTableViewWIthSelectionBtnTests */,
+				71C2C9B4208301990049EBFC /* TKTableViewWIthSelectionBtnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71C2C990208301980049EBFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C2C9A2208301980049EBFC /* LaunchScreen.storyboard in Resources */,
+				71C2C99F208301980049EBFC /* Assets.xcassets in Resources */,
+				71C2C99D208301980049EBFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C2C9A8208301990049EBFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C2C9B3208301990049EBFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71C2C98E208301980049EBFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C2C99A208301980049EBFC /* ViewController.m in Sources */,
+				71C2C9A5208301980049EBFC /* main.m in Sources */,
+				71C2C997208301980049EBFC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C2C9A6208301990049EBFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C2C9AF208301990049EBFC /* TKTableViewWIthSelectionBtnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C2C9B1208301990049EBFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C2C9BA208301990049EBFC /* TKTableViewWIthSelectionBtnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71C2C9AC208301990049EBFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71C2C991208301980049EBFC /* TKTableViewWIthSelectionBtn */;
+			targetProxy = 71C2C9AB208301990049EBFC /* PBXContainerItemProxy */;
+		};
+		71C2C9B7208301990049EBFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71C2C991208301980049EBFC /* TKTableViewWIthSelectionBtn */;
+			targetProxy = 71C2C9B6208301990049EBFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71C2C99B208301980049EBFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C2C99C208301980049EBFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71C2C9A0208301980049EBFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C2C9A1208301980049EBFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71C2C9BC208301990049EBFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71C2C9BD208301990049EBFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71C2C9BF208301990049EBFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKTableViewWIthSelectionBtn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKTableViewWIthSelectionBtn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71C2C9C0208301990049EBFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKTableViewWIthSelectionBtn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKTableViewWIthSelectionBtn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71C2C9C2208301990049EBFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKTableViewWIthSelectionBtnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKTableViewWIthSelectionBtnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKTableViewWIthSelectionBtn.app/TKTableViewWIthSelectionBtn";
+			};
+			name = Debug;
+		};
+		71C2C9C3208301990049EBFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKTableViewWIthSelectionBtnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKTableViewWIthSelectionBtnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKTableViewWIthSelectionBtn.app/TKTableViewWIthSelectionBtn";
+			};
+			name = Release;
+		};
+		71C2C9C5208301990049EBFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKTableViewWIthSelectionBtnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKTableViewWIthSelectionBtnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TKTableViewWIthSelectionBtn;
+			};
+			name = Debug;
+		};
+		71C2C9C6208301990049EBFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKTableViewWIthSelectionBtnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKTableViewWIthSelectionBtnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TKTableViewWIthSelectionBtn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71C2C98D208301980049EBFC /* Build configuration list for PBXProject "TKTableViewWIthSelectionBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C2C9BC208301990049EBFC /* Debug */,
+				71C2C9BD208301990049EBFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C2C9BE208301990049EBFC /* Build configuration list for PBXNativeTarget "TKTableViewWIthSelectionBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C2C9BF208301990049EBFC /* Debug */,
+				71C2C9C0208301990049EBFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C2C9C1208301990049EBFC /* Build configuration list for PBXNativeTarget "TKTableViewWIthSelectionBtnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C2C9C2208301990049EBFC /* Debug */,
+				71C2C9C3208301990049EBFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C2C9C4208301990049EBFC /* Build configuration list for PBXNativeTarget "TKTableViewWIthSelectionBtnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C2C9C5208301990049EBFC /* Debug */,
+				71C2C9C6208301990049EBFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71C2C98A208301980049EBFC /* Project object */;
+}
