@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 
+@property(nonatomic,retain)NSMutableArray *users;
+@property(nonatomic,retain)NSMutableArray *userId;
+@property(nonatomic,retain)NSMutableArray *arrayOfSelectedIndex;
+@property(nonatomic,retain)NSMutableString *showBtnStatus;
+
 
 @end
 
